@@ -1,0 +1,28 @@
+{
+  "signatures": [
+    {
+      "id": 1,
+      "first": "Joshua",
+      "last": "Whynot",
+      "day": "June 4th"
+    },
+    {
+      "id": 2,
+      "first": "Fortnite",
+      "last": "Burger",
+      "day": "June 4th"
+    },
+    {
+      "id": 3,
+      "first": "Poggers",
+      "last": "Epic",
+      "day": "June 4th"
+    },
+    {
+      "first": "Thanos",
+      "last": "Car",
+      "day": "May 14th",
+      "id": 4
+    }
+  ]
+}

@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.navbar-brand {
+    font-size: 30px;
+    padding: 15px;
+    float: none;
+    text-align: center;
+    margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover {
+    text-decoration: underline;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:active {
+    text-decoration: underline;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-home{
+    font-size: 35px;
+    padding: 15px;
+    font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.jumbotron {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 20px;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: inline-flex;
+    background-color: rgba(231, 76, 60, 1);
+}
+.copyright p{
+    margin-left: auto;
+    margin-right: 40px;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-link{
+    margin-right: auto;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.signature label{
+    color: black;
+}
+.signature input{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.signature input:focus{
+    color: white;
+}
+.signature fieldset{
+    background-color: rgb(219, 218, 218);
+    margin: auto;
+    width: 200px;
+    box-shadow: 10px 10px 8px grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.signature-element h3{
+    color: black;
+    margin: auto;
+    padding: 20px;
+}
+.signature-element {
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
 }
