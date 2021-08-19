@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import SignatureBoard from "./Components/Signature-board"
 import Footer from "./Components/Footer"
 import Navigation from "./Components/Navigation"
+import Slides from "./Components/Review-Slides"
 import { Button } from "react-bootstrap"
 import Signatures from "./Components/Signatures"
 // @ts-ignore
@@ -81,6 +82,9 @@ export const App: React.FC = () => {
           </Route>
           <Route exact path="/about">
             <h3 className='text-muted'>Created by Joshua Whynot</h3>
+          </Route>
+          <Route exact path="/slides">
+            <Slides />
           </Route>
         </Switch>
       </div>
