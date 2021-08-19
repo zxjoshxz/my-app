@@ -7,6 +7,7 @@ import { Button } from "react-bootstrap"
 import Signatures from "./Components/Signatures"
 import Shitpost from "./Components/Shitpost"
 import Construction from "./Components/Construction"
+import Sus from "./Components/sussy.gif"
 // @ts-ignore
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -68,7 +69,7 @@ export const App: React.FC = () => {
       <div className='jumbotron'>
         <Switch> 
           <Route exact path="/">
-            <h1 className='text-primary'>Welcome to my Website</h1>
+            <img src={Sus} alt="You are so sussy"></img>
           </Route>
           <Route exact path="/signature-board">
             <SignatureBoard onAdd={addSignature} />
