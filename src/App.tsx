@@ -5,6 +5,8 @@ import Navigation from "./Components/Navigation"
 import Slides from "./Components/Review-Slides"
 import { Button } from "react-bootstrap"
 import Signatures from "./Components/Signatures"
+import Shitpost from "./Components/Shitpost"
+import Construction from "./Components/Construction"
 // @ts-ignore
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -85,6 +87,12 @@ export const App: React.FC = () => {
           </Route>
           <Route exact path="/slides">
             <Slides />
+          </Route>
+          <Route exact path="/jax">
+            <Shitpost />
+          </Route>
+          <Route exact path="/construction">
+            <Construction />
           </Route>
         </Switch>
       </div>

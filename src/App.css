@@ -17,7 +17,7 @@
     font-weight: bold;
 }
 .jumbotron {
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -83,16 +83,28 @@
 }
 
 .carousel {
-    min-width: 300px;
-    min-height: 300px;
-    background-color: teal;
-    border: 1px solid black;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    color: black;
     text-align: center;
+}
+.carouselTwo {
+    background-color: violet;
+}
+.carouselTwo img{
+    width: 300px;
+    height: 225px;
 }
 .carousel h1{
     padding: auto;
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.carousel img{
+    width: 300px;
+    height: 225px;
+}
+.warning {
+    color: rgba(231, 76, 60, 1);
 }
