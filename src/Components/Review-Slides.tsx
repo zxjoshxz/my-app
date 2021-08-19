@@ -6,7 +6,7 @@ const Slides = () => {
                     <h1>Piss</h1>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src='trevor.png'></img>
+                    <img src='trevor.png' alt="trevor"></img>
                 </Carousel.Item>
                 <Carousel.Item>
                     <h1>awesome piss!</h1>
