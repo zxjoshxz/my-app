@@ -2,6 +2,8 @@ import { Carousel } from "react-bootstrap"
 import PepegaDragonPogCannon from "./pepegadragonpogcannon.png"
 import Jhin from "./jhin.jpg"
 import Xqc from "./xqc.gif"
+import Floppa from "./floppa.jpg"
+import JaxHigh from "./jaxHigh.png"
 
 const Shitpost = () => {
     return (
@@ -15,6 +17,12 @@ const Shitpost = () => {
                </Carousel.Item>
                <Carousel.Item>
                    <img src={Xqc} alt="Xqc spin"></img>
+               </Carousel.Item>
+               <Carousel.Item>
+                   <img src={Floppa} alt="Floppa"></img>
+               </Carousel.Item>
+               <Carousel.Item>
+                   <img src={JaxHigh} alt="Jax is fucked up man"></img>
                </Carousel.Item>
             </Carousel>
        </div>
